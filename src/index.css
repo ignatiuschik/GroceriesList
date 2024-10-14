@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 1.5rem;
+}
+
+.header, .footer {
+  background-color: blue;
+  color: white;
+  display: grid;
+  place-content: center;
+}
+
+.content {
+  max-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  font-size: 1.5rem;
+  
+}
+
+.header {
+  font-size: 2rem;
+}
+.item {
+  list-style-type: none;
+}
+button  {
+  font-size: inherit;
+}
+
+.item svg:hover, 
+.item svg:focus {
+  color: red;
+
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  min-height: 2rem;
+  background-color: beige;
+  align-items: center;
+  gap: 2rem;
+  align-items: space-around;
+}
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 2rem;
+}
+
+.addFormLabel {
+  position: absolute;
+  left:-999px;
+}
+
+form input {
+  font-size: inherit;  
+}
+
+
